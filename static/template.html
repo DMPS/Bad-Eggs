@@ -31,7 +31,7 @@
           <input type="search" id="searchbox" placeholder="Search" style="width: 60em" onsearch="myfunction()">
       </section>
       <section>
-          <ul>
+          <ul id="results">
           </ul>
       </section>
   </section>
@@ -49,6 +49,12 @@
             console.log(searchterm);
             $.get('/opencorp', { q: searchterm }, function(data) {
                 console.log(data);
+                var list = document.getElementById('results');
+                data.companies.forEach(function(c){
+                    var li = document.createElement('li');
+                    li.appendChild(document.createTextNode(c.company.name));
+                    list.appendChild(li);
+                });
             });
         }
     </script>

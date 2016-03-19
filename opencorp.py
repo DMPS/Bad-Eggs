@@ -28,11 +28,11 @@ def fetch_companies(search_term):
     params = urllib.urlencode({'q': search_term})
     conn.request('GET', '/v0.4.3/companies/search' + '?' + params)
     response = conn.getresponse()
-    #print response.status, response.reason
+    print response.status, response.reason
 
     data = json.loads(response.read())
     print 'Number of results:', data['results']['total_count']
-    return [ c['company'] for c in data['results']['companies'] ]
+    return data['results']
 
 if __name__ == "__main__":
     name = 'Nokia Oyj'
