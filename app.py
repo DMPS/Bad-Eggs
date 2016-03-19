@@ -21,4 +21,3 @@ def process_company(co):
 if __name__ == "__main__":
     app.run()
 
-url = 'https://uksanctionslist.apispark.net:443/v1/entities?Organization_list=...'

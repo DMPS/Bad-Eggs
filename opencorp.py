@@ -1,8 +1,9 @@
 import httplib
-import urllib
+import httplib2
 import sys
 import json
 from datetime import datetime,timedelta
+import urllib
 
 def parse_date(string):
     if string is None:
@@ -35,12 +36,19 @@ def fetch_companies(search_term):
     print 'Number of results:', data['results']['total_count']
     return data['results']['companies']
 
+def fetch_sanctions(search_term):
+    url = 'https://uksanctionslist.apispark.net:443/v1/entities?Organization_list='+search_term
+    h = httplib2.Http()
+    h.add_credentials('badeggs', 'qwerty1234') # Basic authentication
+    resp, content = h.request(url, "GET")
+    return content
+
 if __name__ == "__main__":
     name = 'Nokia Oyj'
     if len(sys.argv) > 1:
         name = sys.argv[1]
 
-    comps = fetch_companies(name)['companies']
+    comps = fetch_companies(name)
     for co in comps:
-        print co['name'], suspicious(co)
+        print co['company']['name'], suspicious(co)
 
