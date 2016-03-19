@@ -13,6 +13,7 @@ def parse_date(string):
 today = datetime.today()
 
 def suspicious(company):
+    company = company['company']
     ret_val = {}
     inc_date = parse_date(company['incorporation_date'])
     if inc_date is None or today - inc_date < timedelta(300):
@@ -32,14 +33,14 @@ def fetch_companies(search_term):
 
     data = json.loads(response.read())
     print 'Number of results:', data['results']['total_count']
-    return data['results']
+    return data['results']['companies']
 
 if __name__ == "__main__":
     name = 'Nokia Oyj'
     if len(sys.argv) > 1:
         name = sys.argv[1]
 
-    comps = fetch_companies(name)
+    comps = fetch_companies(name)['companies']
     for co in comps:
         print co['name'], suspicious(co)
 

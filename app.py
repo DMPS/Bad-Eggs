@@ -5,15 +5,18 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route("/")
 def hello():
-    print 'foo'
     return "Hello World!"
 
 @app.route("/opencorp")
 def search_oc():
     name = flask.request.args.get('q')
-    print name
     companies = opencorp.fetch_companies(name)
-    return flask.jsonify(companies)
+    ret_obj = { 'result': map(process_company, companies) }
+    return flask.jsonify(ret_obj)
+
+def process_company(co):
+    susp = opencorp.suspicious(co)
+    return { 'name': co['company']['name'], 'suspicious': susp }
 
 if __name__ == "__main__":
     app.run()
