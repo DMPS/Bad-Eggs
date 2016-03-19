@@ -34,11 +34,13 @@ Suggested Outputs:
 
 2.) API Call to Open Bank Project
 
-3.) API Call to Open Corporates
+3.) API Call to Open Corporates (Matti)
 
-4.) API Call to Sanctions API (Self-Created)
+4.) API Call to Sanctions API (Self-Created) (Dalton)
 
 5.) Push Notification System 
+
+6.) Pitch for Sunday (James)
 
 Resources: 
 https://www.lawsociety.org.uk/support-services/advice/articles/checking-the-sanctions-list/
