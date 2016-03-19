@@ -15,10 +15,12 @@ today = datetime.today()
 def suspicious(company):
     ret_val = {}
     inc_date = parse_date(company['incorporation_date'])
-    if inc_date is None or today - inc_date < timedelta(1000):
+    if inc_date is None or today - inc_date < timedelta(300):
         ret_val['inc_date'] = inc_date
     if company['dissolution_date'] is not None:
         ret_val['dissolution_date'] = company['dissolution_date']
+#    if company['jurisdiction_code'] in [ 'im', 'ie', 'us_de' ]:
+#        ret_val['jurisdiction_code'] = company['jurisdiction_code']
     return ret_val
 
 def fetch_companies(search_term):
@@ -32,11 +34,12 @@ def fetch_companies(search_term):
     print 'Number of results:', data['results']['total_count']
     return [ c['company'] for c in data['results']['companies'] ]
 
-name = 'Nokia Oyj'
-if len(sys.argv) > 1:
-    name = sys.argv[1]
+if __name__ == "__main__":
+    name = 'Nokia Oyj'
+    if len(sys.argv) > 1:
+        name = sys.argv[1]
 
-comps = fetch_companies(name)
-for co in comps:
-    print co['name'], suspicious(co)
+    comps = fetch_companies(name)
+    for co in comps:
+        print co['name'], suspicious(co)
 
