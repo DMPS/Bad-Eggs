@@ -30,13 +30,13 @@ http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
 
 Suggested Outputs:
 
-1.) Create a website
+1.) Create a website (Matti)
 
-2.) API Call to Open Bank Project
+2.) API Call to Open Bank Project (Dalton)
 
-3.) API Call to Open Corporates (Matti)
+3.) API Call to Open Corporates (Complete)
 
-4.) API Call to Sanctions API (Self-Created) (Dalton)
+4.) API Call to Sanctions API (Self-Created) (Complete)
 
 5.) Push Notification System 
 
