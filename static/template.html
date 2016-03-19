@@ -56,8 +56,13 @@
                     text += c.name;
                     if($.isEmptyObject(c.suspicious))
                         text += ": Nothing suspicious";
-                    else
-                        text += ": Something suspicious!";
+                    else {
+                        text += ": Something suspicious! ";
+                        if( 'inc_date' in c.suspicious )
+                            text += "The company was never incorporated";
+                        if( 'dissolution_date' in c.suspicious )
+                            text += "The company has been dissoved";
+                    }
                     li.appendChild(document.createTextNode(text));
                     list.appendChild(li);
                 });
