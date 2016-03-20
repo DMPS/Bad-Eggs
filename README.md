@@ -13,20 +13,19 @@ deal with the funds of designated persons, or make funds and economic resources 
 
 Solution: Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
 
-Customer Journey: Bob is the CEO of Zalmart Inc.  He is responsible for ensuring all company partners are 'above the board'
+Customer Journey: Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
-1.) How?:  Bob goes to www.badeggs.github.io and creates an account. He enters the bank account for his company and accepts the terms. 
+1.) Bob goes to www.badeggs.github.io and creates an account. He enters the bank account for his company and accepts the terms. 
 
-2.) What?: The Bad Eggs app makes an API call to the Open Bank Project to retrieve Bob's transactions.  The transaction data includes the name of the payee.
+2.) Xavier sets up two recurring payments. First, he pays BreatheBnB £1000 per day for 60 days to rent luxury suites in Paris, Rome, and Berlin. Second, he pays Bob £3500 per month for 10 months to use one of Bob's jets to fly to his rented flats around the world. 
 
-3.) Who?:  The Open Corporates API performs a lookup on the payee name. It returns a brief summary of each payee.
+3.) The Bad Eggs app makes an API call to the Open Bank Project to retrieve Bob's incoming and outgoing transactions.  The transaction data includes the £3500 payment from Xavier's company, Dodgy Limited.
 
-4.) When?: The Payee name is matched against a consolidated list of all persons and entities that are subject to sanctions which are effective in the UK
-http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
+4.) The Open Corporates API performs a lookup on the Open Bank Projects list of counterparties/payors. It returns a brief summary of each payee including information about Dodgy Limited.
 
-5.) Bob sends a link to any other partners allowing them access to his Bad Eggs account and strongly encourages them to do the same.
+5.) The Sanctions API matches all payor/counterparty names against a current list of all persons and entities subject to sanctions in the UK. Source: http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
 
-6.) Where?: Bob recieves a push notification on his phone if a transaction is flagged by the system.
+6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentiall fraudulent.
 
 Suggested Outputs:
 
