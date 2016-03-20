@@ -17,7 +17,9 @@ The Solution:
 
 Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
 
-Customer Journey: Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
+The Customer Journey: 
+
+Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
 1.) Bob goes to www.badeggs.github.io and creates an account. He enters the bank account for his company and accepts the terms. 
 
@@ -46,6 +48,7 @@ Suggested Outputs:
 6.) Pitch for Sunday (James)
 
 Resources: 
+
 https://www.lawsociety.org.uk/support-services/advice/articles/checking-the-sanctions-list/
 
 http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
