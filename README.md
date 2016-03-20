@@ -37,6 +37,7 @@ Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xa
 6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentially fraudulent.  He submits a suspicious activity report (SAR) to the National Crime Agency. 
 
 <b>The Benefits:</b>
+
 -Bob just has to log in and Bad Eggs takes care of the rest! We monitor his transactions and alert him of any suspicious activity
 -As an investor, Bad Eggs has low implementation and build costs, so your ROI is high
 
