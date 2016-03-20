@@ -7,6 +7,7 @@ function results(){
         var names = data.transactions.map(function(tr) {
             return tr.other_account.holder.name;
         });
+        names[10] = "AAB";
         console.log(names);
         var list = document.getElementById('transaction_list');
         names.forEach(function(name) {
