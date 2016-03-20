@@ -55,11 +55,13 @@ function sanctions(searchterm) {
             elem.appendChild(p);
         }
         else {
-            console.log('Not Cool');
+            console.log(data);
             var elem = document.getElementById('sanctions');
             var p = document.createElement('p');
             var text = "";
-            text += 'This company is in the sanctions list!';
+            text += 'This company is in the sanctions list!   ';
+            if( 'Other_Information' in data )
+                text += data.Other_Information;
             p.className = "bad";
             p.appendChild(document.createTextNode(text));
             elem.appendChild(p);
