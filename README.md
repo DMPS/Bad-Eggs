@@ -60,3 +60,6 @@ The Challenge:
 Intesa Sanpaolo - #1 Disintermediation and trust-based scoring methods
 
 Sharing Economy implies the disintermediation of middle-men, such as institutions, as they are gradually replaced by platforms (e.g. P2P lending, crowdfunding, investment club). All these platforms allow users to directly access valuable assets (connections, knowledge, competencies and resources) through networks which act as trust-circles, relying on community and feedback as alternative scoring methods. Develop a model or a proof of concept about Sharing Economy showing how Financial Institutions may fully include such paradigm in their operational models and credit-scoring methodologies.
+
+Any other cool stuff? 
+We want to make this hackathon fun and inspiring, so we are happy that Open Bank Project and MyOrder will providing their API for the hackathon  Our global partner Amazon Web Services are offering credits for the hackathon so teams can use their platform during the event. And fun activities related to St. Patrick's Day of course.
