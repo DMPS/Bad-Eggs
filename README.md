@@ -59,6 +59,8 @@ Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xa
 
 https://www.lawsociety.org.uk/support-services/advice/articles/checking-the-sanctions-list/
 http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
+https://www.uktradeinfo.com/Statistics/OverseasTradeStatistics/Pages/OTS.aspx
+http://www.ft.com/cms/s/0/7d3a0a24-733d-11e5-a129-3fcc4f641d98.html#axzz43Qu6WZAQ
 
 <b>Background:</b>
 
