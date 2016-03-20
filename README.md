@@ -12,6 +12,9 @@ it is a criminal offence for any natural or legal person to:  deal with the fund
 
 -The list of sanctioned targets is very lengthy and updated frequently. It is not cost effective for SMEs to keep track of these lists.
 
+<b> The Market:</b>
+"Billions of pounds of corrupt cash are flowing through the UK’s financial sector, according to an official report." - FT UK Businesses continue to export their products and services, currently valued at approximately £22.1 billion.
+
 <b>The Solution:</b> 
 
 Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
@@ -30,7 +33,12 @@ Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xa
 
 5.) The Sanctions API matches all payor/counterparty names against a current list of all persons and entities subject to sanctions in the UK. Source: http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
 
-6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentiall fraudulent.
+6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentially fraudulent.  He submits a suspicious activity report (SAR) to the National Crime Agency. 
+
+<b>The Benefits:</b>
+-Bob just has to log in and Bad Eggs takes care of the rest! We monitor his transactions and alert him of any suspicious activity
+-As an investor, Bad Eggs has low implementation and build costs, so your ROI is high
+
 
 <b>Suggested Outputs:</b>
 
