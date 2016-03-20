@@ -1,6 +1,8 @@
 # Bad-Eggs
 <h3>Making the Sharing Economy Safer via a Passive Money Laundering Monitoring System</h3>
 
+See presentation on http://slides.com/daltonscott/deck-1/#/
+
 <i>"The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation of money laundering and criminal activity as well as a lack of safety for its buyers."</i> - David Weiner, Wall Street Journal, 22 May 2014
 
 <b>The Problem:</b>
