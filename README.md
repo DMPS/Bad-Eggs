@@ -2,9 +2,9 @@
 Making the Sharing Economy Safer - Money Laundering
 
 "The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation 
-of money laundering and criminal activity as well as a lack of safety for its buyers." - David Weiner, Wall Street Journal
+of money laundering and criminal activity as well as a lack of safety for its buyers." - David Weiner, Wall Street Journal, 22 May 2014
 
-The Problem:
+<b>The Problem:</b>
 
 -48% of respondents said that they did not check their clients against these sanctions lists. 
 
