@@ -45,6 +45,13 @@ function sanctions(searchterm) {
     $.getJSON('/sanctions', { q: searchterm }, function(data) {
         if('code' in data) {
             console.log('Cool');
+            var elem = document.getElementById('sanctions');
+            var p = document.createElement('p');
+            var text = "";
+            text += 'This company is not in the sanctions list!';
+            p.className = "good";
+            p.appendChild(document.createTextNode(text));
+            elem.appendChild(p);
         }
         else {
             console.log('Not Cool');
@@ -52,6 +59,7 @@ function sanctions(searchterm) {
             var p = document.createElement('p');
             var text = "";
             text += 'This company is in the sanctions list!';
+            p.className = "bad";
             p.appendChild(document.createTextNode(text));
             elem.appendChild(p);
         }
