@@ -23,6 +23,8 @@
       <section>
           <input type="search" id="searchbox" placeholder="Search" style="width: 60em" onsearch="myfunction()">
       </section>
+      <section id="sanctions">
+      </section>
       <section>
           <ul id="results">
           </ul>
@@ -42,5 +44,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
     <script src="obp.js"></script>
+    <script>
+        function myfunction() {
+            var searchterm = document.getElementById('searchbox').value;
+            opencorp(searchterm);
+            sanctions(searchterm);
+        }
+    </script>
   </body>
 </html>

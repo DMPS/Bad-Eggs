@@ -17,8 +17,7 @@ function results(){
 	})
 }
 
-function myfunction() {
-    var searchterm = document.getElementById('searchbox').value;
+function opencorp(searchterm) {
     console.log(searchterm);
     $.get('/opencorp', { q: searchterm }, function(data) {
         console.log(data);
@@ -39,5 +38,22 @@ function myfunction() {
             li.appendChild(document.createTextNode(text));
             list.appendChild(li);
         });
+    });
+}
+
+function sanctions(searchterm) {
+    $.getJSON('/sanctions', { q: searchterm }, function(data) {
+        if('code' in data) {
+            console.log('Cool');
+        }
+        else {
+            console.log('Not Cool');
+            var elem = document.getElementById('sanctions');
+            var p = document.createElement('p');
+            var text = "";
+            text += 'This company is in the sanctions list!';
+            p.appendChild(document.createTextNode(text));
+            elem.appendChild(p);
+        }
     });
 }

@@ -37,7 +37,7 @@ def fetch_companies(search_term):
     return data['results']['companies']
 
 def fetch_sanctions(search_term):
-    url = 'https://uksanctionslist.apispark.net:443/v1/entities?Organization_list='+search_term
+    url = 'https://uksanctionslist.apispark.net:443/v1/entities/'+urllib.quote_plus(search_term)
     h = httplib2.Http()
     h.add_credentials('badeggs', 'qwerty1234') # Basic authentication
     resp, content = h.request(url, "GET")

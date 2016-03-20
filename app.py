@@ -14,6 +14,12 @@ def search_oc():
     ret_obj = { 'result': map(process_company, companies) }
     return flask.jsonify(ret_obj)
 
+@app.route("/sanctions")
+def search_sanctions():
+    name = flask.request.args.get('q')
+    sanctions = opencorp.fetch_sanctions(name)
+    return sanctions
+
 def process_company(co):
     susp = opencorp.suspicious(co)
     return { 'name': co['company']['name'], 'suspicious': susp }
