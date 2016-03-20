@@ -1,8 +1,7 @@
 # Bad-Eggs
 <h3>Making the Sharing Economy Safer via a Passive Money Laundering Monitoring System</h3>
 
-"The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation 
-of money laundering and criminal activity as well as a lack of safety for its buyers." - David Weiner, Wall Street Journal, 22 May 2014
+<i>"The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation of money laundering and criminal activity as well as a lack of safety for its buyers."</i> - David Weiner, Wall Street Journal, 22 May 2014
 
 <b>The Problem:</b>
 
@@ -66,4 +65,5 @@ Any other cool stuff?
 We want to make this hackathon fun and inspiring, so we are happy that Open Bank Project and MyOrder will providing their API for the hackathon  Our global partner Amazon Web Services are offering credits for the hackathon so teams can use their platform during the event. And fun activities related to St. Patrick's Day of course.
 
 <b>The Team</b>
+
 Matti, James & Dalton
