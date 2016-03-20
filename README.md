@@ -5,7 +5,7 @@
 
 <b>The Problem:</b>
 
--48% of respondents said that they did not check their clients against these sanctions lists. 
+-CEOs rely on accountants and lawyers to tell them if they are transacting with banned parties.  48% of respondents said that they did not check their clients against these sanctions lists. 
 
 -Under The Al Qaida and Taliban (United Nations Measures) Order 2006 and the Terrorism (United Nations Measures) Order 2006, 
 it is a criminal offence for any natural or legal person to:  deal with the funds of designated persons, or make funds and economic resources available, directly or indirectly for the benefit of designated persons.
@@ -39,6 +39,8 @@ Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xa
 6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentially fraudulent.  He submits a suspicious activity report (SAR) to the National Crime Agency. 
 
 <b>The Benefits:</b>
+
+-Businesses don't have to rely on their accountant to tell them if they are doing business with a sanctioned company(Disintermediation)
 
 -Bob just has to log in and Bad Eggs takes care of the rest! We monitor his transactions and alert him of any suspicious activity
 
