@@ -25,5 +25,5 @@ def process_company(co):
     return { 'name': co['company']['name'], 'suspicious': susp }
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0')
 
