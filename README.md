@@ -19,7 +19,7 @@ Bad Eggs is a quick and passive way for SMEs to be alerted of doing business wit
 
 <b>The Customer Journey:</b> 
 
-Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
+Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xavier is a drug dealer based in Bogota, Colombia who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
 1.) Bob goes to www.badeggs.github.io and creates an account. He enters the bank account for his company and accepts the terms. 
 
