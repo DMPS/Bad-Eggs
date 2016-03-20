@@ -14,7 +14,8 @@ it is a criminal offence for any natural or legal person to:  deal with the fund
 
 <b> The Market:</b>
 
-"Billions of pounds of corrupt cash are flowing through the UK’s financial sector, according to an official report." - Vanessa Houlden, FT 
+"Billions of pounds of corrupt cash are flowing through the UK’s financial sector, according to an official report." - Vanessa Houlden, FT
+
 UK Businesses continue to export their products and services, currently valued at approximately £22.1 billion.
 
 <b>The Solution:</b> 
