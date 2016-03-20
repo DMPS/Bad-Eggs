@@ -6,9 +6,10 @@ of money laundering and criminal activity as well as a lack of safety for its bu
 
 Problem: 
 -48% of respondents said that they did not check their clients against these sanctions lists. 
+
 -Under The Al Qaida and Taliban (United Nations Measures) Order 2006 and the Terrorism (United Nations Measures) Order 2006, 
-it is a criminal offence for any natural or legal person to:
-deal with the funds of designated persons, or make funds and economic resources available, directly or indirectly for the benefit of designated persons.
+it is a criminal offence for any natural or legal person to:  deal with the funds of designated persons, or make funds and economic resources available, directly or indirectly for the benefit of designated persons.
+
 -The list of sanctioned targets is very lengthy and updated frequently. It is not cost effective for SMEs to keep track of these lists.
 
 Solution: Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
