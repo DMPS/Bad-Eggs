@@ -19,7 +19,7 @@ Bad Eggs is a quick and passive way for SMEs to be alerted of doing business wit
 
 <b>The Customer Journey:</b> 
 
-Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xavier is a drug dealer based in Bogota, Colombia who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
+Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xavier is a drug dealer based in Acity, Acountry who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
 1.) Bob goes to www.badeggs.github.io and creates an account. He enters the bank account for his company and accepts the terms. 
 
@@ -64,3 +64,6 @@ Sharing Economy implies the disintermediation of middle-men, such as institution
 
 Any other cool stuff? 
 We want to make this hackathon fun and inspiring, so we are happy that Open Bank Project and MyOrder will providing their API for the hackathon  Our global partner Amazon Web Services are offering credits for the hackathon so teams can use their platform during the event. And fun activities related to St. Patrick's Day of course.
+
+<b>The Team</b>
+Matti, James & Dalton
