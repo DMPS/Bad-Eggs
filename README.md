@@ -1,5 +1,5 @@
 # Bad-Eggs
-Making the Sharing Economy Safer - Money Laundering
+<h2>Making the Sharing Economy Safer - Bad Eggs A Passive Money Laundering Monitoring System</h2>
 
 "The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation 
 of money laundering and criminal activity as well as a lack of safety for its buyers." - David Weiner, Wall Street Journal, 22 May 2014
@@ -13,11 +13,11 @@ it is a criminal offence for any natural or legal person to:  deal with the fund
 
 -The list of sanctioned targets is very lengthy and updated frequently. It is not cost effective for SMEs to keep track of these lists.
 
-The Solution: 
+<b>The Solution:</b> 
 
 Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
 
-The Customer Journey: 
+<b>The Customer Journey:</b> 
 
 Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
@@ -33,7 +33,7 @@ Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is 
 
 6.) Bob recieves a push notification on his phone to say that the incoming payment of £3500 from Xavier's company a transaction is potentiall fraudulent.
 
-Suggested Outputs:
+<b>Suggested Outputs:</b>
 
 1.) Create a website (Matti)
 
@@ -43,20 +43,20 @@ Suggested Outputs:
 
 4.) API Call to Sanctions API (Self-Created) (Complete)
 
-5.) Push Notification System 
+5.) Push Notification System (Future Delivery?)
 
 6.) Pitch for Sunday (James)
 
-Resources: 
+<b>Resources:</b> 
 
 https://www.lawsociety.org.uk/support-services/advice/articles/checking-the-sanctions-list/
 http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
 
-Background:
+<b>Background:</b>
 
 Startupbootcamp FinTech is back organising a FinTech hackathon at the Rainmaking Loft. The hackathon will be taking place on the weekend just after St. Patrick's Day. We are organising a hackathon on the theme of FinTech for Sharing Economy. 
 
-The Challenge:
+<b>The Challenge:</b>
 
 Intesa Sanpaolo - #1 Disintermediation and trust-based scoring methods
 
