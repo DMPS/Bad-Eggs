@@ -13,6 +13,7 @@ it is a criminal offence for any natural or legal person to:  deal with the fund
 -The list of sanctioned targets is very lengthy and updated frequently. It is not cost effective for SMEs to keep track of these lists.
 
 <b> The Market:</b>
+
 "Billions of pounds of corrupt cash are flowing through the UK’s financial sector, according to an official report." - FT UK Businesses continue to export their products and services, currently valued at approximately £22.1 billion.
 
 <b>The Solution:</b> 
