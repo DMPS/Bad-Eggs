@@ -52,3 +52,11 @@ Resources:
 https://www.lawsociety.org.uk/support-services/advice/articles/checking-the-sanctions-list/
 
 http://www.hm-treasury.gov.uk/fin_sanctions_index.htm
+
+Background:
+Startupbootcamp FinTech is back organising a FinTech hackathon at the Rainmaking Loft. The hackathon will be taking place on the weekend just after St. Patrick's Day. We are organising a hackathon on the theme of FinTech for Sharing Economy. 
+
+The Challenge:
+Intesa Sanpaolo - #1 Disintermediation and trust-based scoring methods
+
+Sharing Economy implies the disintermediation of middle-men, such as institutions, as they are gradually replaced by platforms (e.g. P2P lending, crowdfunding, investment club). All these platforms allow users to directly access valuable assets (connections, knowledge, competencies and resources) through networks which act as trust-circles, relying on community and feedback as alternative scoring methods. Develop a model or a proof of concept about Sharing Economy showing how Financial Institutions may fully include such paradigm in their operational models and credit-scoring methodologies.
