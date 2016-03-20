@@ -4,7 +4,8 @@ Making the Sharing Economy Safer - Money Laundering
 "The sharing economy struggles with the same issues facing bitcoin, the crypto-currency that has been criticized for its facilitation 
 of money laundering and criminal activity as well as a lack of safety for its buyers."
 
-Problem: 
+The Problem:
+
 -48% of respondents said that they did not check their clients against these sanctions lists. 
 
 -Under The Al Qaida and Taliban (United Nations Measures) Order 2006 and the Terrorism (United Nations Measures) Order 2006, 
@@ -12,7 +13,9 @@ it is a criminal offence for any natural or legal person to:  deal with the fund
 
 -The list of sanctioned targets is very lengthy and updated frequently. It is not cost effective for SMEs to keep track of these lists.
 
-Solution: Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
+The Solution: 
+
+Bad Eggs is a quick and passive way for SMEs to be alerted of doing business with individuals or companies on the sanctions list.
 
 Customer Journey: Bob is the CEO of JetShare, a UK based private jet sharing business.  Xavier is a drug dealer who just scored £100K in an illegal deal. He wants to launder his money through his company, Dodgy Limited.
 
