@@ -49,15 +49,15 @@ Bob is the CEO of JetShare, a London, UK based private jet sharing business.  Xa
 -As an investor, Bad Eggs has low implementation and build costs, so your ROI is high
 
 
-<b>Suggested Outputs:</b>
+<b>Outputs:</b>
 
 1.) Create a website (Matti)
 
 2.) API Call to Open Bank Project (Dalton)
 
-3.) API Call to Open Corporates (Complete)
+3.) API Call to Open Corporates (Dalton)
 
-4.) API Call to Sanctions API (Self-Created) (Complete)
+4.) API Call to Sanctions API (Self-Created) (Dalton)
 
 5.) Push Notification System (Future Delivery?)
 
